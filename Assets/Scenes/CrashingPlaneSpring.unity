@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _direction: {x: 0, y: 1}
-  _impulse: 12
+  _impulse: 8
 --- !u!50 &630339735
 Rigidbody2D:
   serializedVersion: 4
@@ -404,7 +404,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0e5e247431deb7e4db8dd9c15198f620, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -829,6 +829,7 @@ MonoBehaviour:
   _prefabs:
   - {fileID: 5159174393068658102, guid: ad8ef54bfd8049d4897b25e7ec388cca, type: 3}
   - {fileID: 2441028125726398853, guid: 5642e6fa2b16b3f4ca9300a14e245155, type: 3}
+  - {fileID: 2441028125726398853, guid: 343fb6b853b25ea4aac55bf73f2faa37, type: 3}
 --- !u!4 &1846705571
 Transform:
   m_ObjectHideFlags: 0
